@@ -26,7 +26,7 @@ async def g(ctx,a):
     if int(a)==r:
         rand()
         await ctx.send(userID)
-        await ctx.send("Sugoi!",file= discord.File("C:\\Users\\anves\\Documents\\Coding\\Python coding\\Discord_bot\\assets\\clap.gif"))
+        await ctx.send("Sugoi!",file= discord.File("assets\\clap.gif"))
         
     else:
         await ctx.send("Better luck next time!😢")
@@ -37,4 +37,4 @@ async def kill(ctx):
     await ctx.send("Ahhhhhhh!")
     await ctx.bot.logout()
 
-bot.run('NzU4MzU0NTU5MzE5NjcwNzg0.X2tuuA.1TfN5y3k0zBep9gRG8Ht7T92tfw')
+bot.run('token')
