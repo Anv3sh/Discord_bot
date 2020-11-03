@@ -1,3 +1,6 @@
 # Discord_bot_billu
-It's a simple discord bot to play a number guessing game over discord chat.
-Library used: discord.py and random.py
+A multipurpose discord bot with major purpose being number guessing and reaction to users.
+Library used: 
+1)discord.py 
+2)random.py
+3)giphy_client.py
